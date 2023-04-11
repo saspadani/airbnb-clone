@@ -76,9 +76,9 @@ const RegisterModal = () => {
   );
 
   const FooterContent = (
-    <div className='flex flex-col gap-4 mt-3'>
+    <div className='flex flex-col gap-1 mt-1 sm:mt-1 md:mt-3'>
       <hr />
-      <div className='flex flex-row gap-2'>
+      <div className='flex flex-col sm:flex-col md:flex-row gap-2'>
         <Button
           outline
           label='Continue with Google'
